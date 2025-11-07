@@ -1,4 +1,5 @@
 <?php
+// Railway menyediakan MySQL variables otomatis
 return [
     'host' => getenv('MYSQLHOST') ?: 'localhost',
     'port' => getenv('MYSQLPORT') ?: '3306',
